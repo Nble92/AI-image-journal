@@ -1,0 +1,55 @@
+# Ignore OAuth credentials and tokens
+credentials.json
+token.json
+*.env
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.tiff
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Python cache and package files (if relevant)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Ignore Node.js dependencies (if relevant)
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Ignore log files
+*.log
+
+# Ignore compressed and archive files
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
