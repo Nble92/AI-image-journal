@@ -86,7 +86,7 @@ def list_file_names():
         print(response.text)
 
 
-def upload_image(file_path, file_name):
+def upload_image(file_path, file_name, folder_id=None):
     creds = get_credentials()
     url = "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart"
     
@@ -98,6 +98,9 @@ def upload_image(file_path, file_name):
     file_metadata = {
         'name': file_name
     }
+
+    if folder_id:
+        file_metadata['parents'] = [folder_id]
 
     # File content
     files = {

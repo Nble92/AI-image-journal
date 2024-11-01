@@ -17,7 +17,7 @@ def img_gen():
 
   print("Hello! Welcome to your museum. Give your thoughts. We generate an image, delete the words and store your work. ")
   # Prompts user for the image they wanna generate.
-  print("What image do you want to generate?")
+  print("How do you feel?")
 
 
   response = client.images.generate(
