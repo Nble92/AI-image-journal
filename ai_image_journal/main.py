@@ -1,5 +1,5 @@
 import image_gen
-import gDrive
+import ai_image_journal.image_journal.gDrive as gDrive
 from dotenv import load_dotenv
 import os
 
